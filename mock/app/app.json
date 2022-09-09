@@ -1,0 +1,41 @@
+{
+  "id": "app",
+  "name": "helloWorld",
+  "icon": "zmdi zmdi-storage",
+  "items": [
+    {
+      "id": "helloWorld",
+      "name": "helloWorld",
+      "icon": "zmdi zmdi-cloud-box bgm-gray",
+      "platform": 1023,
+      "items": [
+        {
+          "id": "hello",
+          "name": "hello",
+          "icon": "zmdi zmdi-cloud-box bgm-gray",
+          "platform": 1023,
+          "url": "front/views/helloWorld/hello.js",
+          "properties": {
+            "moduleType": "iife",
+            "moduleName": "front.views.helloWorld.hello",
+            "loader": "vue2",
+            "particle": "module"
+          }
+        },
+        {
+          "id": "world",
+          "name": "world",
+          "icon": "zmdi zmdi-cloud-box bgm-gray",
+          "platform": 1023,
+          "url": "front/views/helloWorld/world.js",
+          "properties": {
+            "moduleType": "iife",
+            "moduleName": "front.views.helloWorld.world",
+            "loader": "vue2",
+            "particle": "module"
+          }
+        }
+      ]
+    }
+  ]
+}
